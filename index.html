@@ -3,15 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pooryter</title>
+    <title> Mundinho Ghibli </title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <h1>Pooryter</h1>
     </header>
     <main>
-        <form action=""></form>
-        <article id="posts"></article>
+        <ul>
+            <li>Nós conte o seu nome:</li>
+        </ul>
+        <form action>
+            <label for="fname"></label><br>
+            <input type="text" id="fname" name="fname" value="Nome"><br>
+            <label for="lname"></label><br>
+            <input type="text" id="lname" name="lname" value="Sobrenome"><br><br>
+          </form>
+        <ul>
+            <li>Você é fã do Studio Ghibli?</li>
+        </ul>
+        <form>
+            <input type="radio" id="SIM!" name="fãGhibli" value="SIM!">
+            <label for="html">SIM!</label><br>
+            <input type="radio" id="Não..." name="fãGhibli" value="Não...">
+            <label for="javascript">Não...</label><br>
+            <input type="radio" id="Talvez" name="fãGhibli" value="Talvez">
+            <label for="javascript">Talvez</label><br>
+          </form>
+          <ul>
+            <li>Se é fã então selecione os filmes mais populares do Studio que você já assistiu!:</li>
+          </ul>
+          <form>
+            <input type="checkbox" id="Filme1" name="Filme1" value="Meu Amigo Totoro">
+            <label for="Filme1"> Meu Amigo Totoro </label><br>
+            <input type="checkbox" id="Filme2" name="Filme2" value="O Castelo Animado">
+            <label for="Filme2"> O Castelo Animado </label><br>
+            <input type="checkbox" id="Filme3" name="Filme3" value="Ponyo">
+            <label for="Filme3"> Ponyo </label><br>
+            <input type="checkbox" id="Filme4" name="Filme4" value="Túmulo dos Vagalumes">
+            <label for="Filme4"> Túmulo dos Vagalumes </label><br>
+            <input type="checkbox" id="Filme5" name="Filme5" value="A Viagem de Chihiro">
+            <label for="Filme5"> A Viagem de Chihiro </label><br>
+            <input type="checkbox" id="Filme6" name="Filme6" value="O Serviço de Entregas da Kiki">
+            <label for="Filme6"> O Serviço de Entregas da Kiki </label><br>
+            <input type="checkbox" id="Filme7" name="Filme7" value="Princesa Mononoke">
+            <label for="Filme7"> Princesa Mononoke </label><br>
+            <input type="checkbox" id="Filme8" name="Filme8" value="O Reino dos Gatos">
+            <label for="Filme8"> O Reino dos Gatos </label><br>
+            <input type="checkbox" id="Filme9" name="Filme9" value="As Memórias de Marnie">
+            <label for="Filme9"> As Memórias de Marnie </label><br>
+            <input type="checkbox" id="Filme10" name="Filme10" value="O Conto de Princesa Kaguya">
+            <label for="Filme10"> O Conto de Princesa Kaguya </label><br>
+          </form> 
+          <form>
+          <ul>
+            <li>De 0 a 100 determine o tanto que você gosta do Studio Ghibli:</li>
+          </ul>
+          <label for="Não gosto muito...">Não gosto muito...</label>
+          0<input type="range" id="Não gosto muito..." name="Não gosto muito..." min="0" max="100">100 <label for="AMO!">AMO!</label><br>
+        </form>
+        <form>
+            <ul>
+                <li>Por onde/quem você conheceu o Studio Ghibli?</li>
+            </ul>
+            <label for="select"></label>
+	<select>
+		<option value="Youtube">Youtube</option>
+		<option value="Tiktok">Tiktok</option>
+		<option value="Instagram">Instagram</option>
+        <option value="Amigos">Amigos</option>
+        <option value="Familiares">Familiares</option>
+        <option value="Outro">Outro</option><br>
+	</select>
+	<br>
+        </form>
+        <ul>
+          <li>Qual foi o primeiro filme do Studio Ghibli que você assistiu?</li>
+      </ul>
+        <form action>
+          <label for="fname"></label><br>
+          <input type="text" id="fname" name="fname" value="Digite Aqui"><br><br>
+        </form>
+        <ul>
+          <li>Qual foi o último filme do Studio Ghibli que você assistiu recentemente?</li>
+      </ul>
+        <form action>
+          <label for="fname"></label><br>
+          <input type="text" id="fname" name="fname" value="Digite Aqui"><br><br>
+        </form>
+            <ul>
+                <li>Escreva o nome do seu personagem favorito do Studio Ghibli:</li>
+            </ul>
+            <form action>
+                <label for="fname"></label><br>
+                <input type="text" id="fname" name="fname" value="Digite Aqui"><br><br>
+              </form>
+              <ul>
+                <li>Escreva o nome do seu personagem menos favorito do Studio Ghibli:</li>
+            </ul>
+              <form action>
+                <label for="fname"></label><br>
+                <input type="text" id="fname" name="fname" value="Digite Aqui"><br><br>
+              </form>
+              <ul>
+                <li>Escolha uma cor que tenha destaque na paleta de cores do seu filme favorito do Studio Ghibli:</li>
+            </ul>
+              <form>
+              <label for="colorPicker">Escolha a cor predominante do seu filme favorito do Studio Ghibli:</label>
+              <input type="color" id="colorPicker" name="color" value="#ff0000">
+              </form>
+              <ul>
+                <li>Qual estação do ano você mais gosta de ver nos filmes do Studio Ghibli?</li>
+            </ul>
+            <form>
+                <input type="radio" id="Verão" name="estações" value="Verão">
+                <label for="html">Verão</label><br>
+                <input type="radio" id="Inverno" name="estações" value="Inverno">
+                <label for="javascript">Inverno</label><br>
+                <input type="radio" id="Outono" name="estações" value="Outono">
+                <label for="javascript">Outono</label><br>
+                <input type="radio" id="Primavera" name="estações" value="Primavera">
+                <label for="javascript">Primavera</label><br>
+              </form>
+              <button><a href="index2.html">Proximo</a></button>
     </main>
 </body>
 </html>
