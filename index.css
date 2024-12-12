@@ -26,7 +26,7 @@ main {
 }
 
 input:focus {
-    background-color: rgb(224, 220, 159);
+    background-color: rgb(164, 131, 240);
 }
 
 footer {
@@ -54,7 +54,30 @@ header h1 {
     top: 0;
     left: 0;
     width: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
+}
+
+.container {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover {
+    width: 25%;
+    
 }

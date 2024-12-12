@@ -7,23 +7,23 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header>
-    <h1>Bem-vindo ao Mundinho Ghibli!</h1>
-  </header>
-  
   <form action="salvar.php" method="post"></form>
    
     <main>
       <div class="banner">
         <img src="c:\Users\20241114010031\Downloads\Mundinho Ghibli (1).png"alt="Banner da página" style="height:auto;">
     </div>
-            <h2>Nós conte o seu nome:</h2>
+    <header>
+      <h1>Bem-vindo ao Mundinho Ghibli!</h1>
+      <p>Onde a magia e a fantasia dos filmes do Studio Ghibli são relembradas.</p>
+    </header>
+            <h2>Nos conte o seu nome:</h2>
        
         <form>
             <label for="fname"></label><br>
-            <input type="text" id="fname" name="fname" value="Nome" required><br>
+            <input type="text" id="fname" name="fname" placeholder="Nome" required><br>
             <label for="lname"></label><br>
-            <input type="text" id="lname" name="lname" value="Sobrenome" required><br><br>
+            <input type="text" id="lname" name="lname" placeholder="Sobrenome" required><br><br>
           </form>
        
             <h2>Você é fã do Studio Ghibli?</h2>
@@ -57,10 +57,22 @@
             <input type="checkbox" id="Filme9" name="Filme9" value="As Memórias de Marnie">
             <label for="Filme9"> As Memórias de Marnie </label required><br>
             <input type="checkbox" id="Filme10" name="Filme10" value="O Conto de Princesa Kaguya">
-            <label for="Filme10"> O Conto de Princesa Kaguya </label required><br>
+            <label for="Filme10"> O Conto de Princesa Kaguya </label>
           </form> 
+          <h3>Esses são os filmes citados acima:</h3>
+          <div class="container">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0055.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0056.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0057.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0058.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0059.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0054.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0062.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0060.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0061.jpg">
+            <img src="c:\Users\20241114010031\Downloads\IMG-20241212-WA0053.jpg">
+          </div>
           <form>
-          
             <h2>De 0 a 100 determine o tanto que você gosta do Studio Ghibli:</h2>
          
           <label for="Não gosto muito...">Não gosto muito...</label required>
@@ -86,34 +98,34 @@
       
         <form action>
           <label for="fname"></label><br>
-          <input type="text" id="fname" name="fname" value="Digite Aqui" required><br><br>
+          <input type="text" id="fname" name="fname" placeholder="Digite Aqui" required><br><br>
         </form>
         
           <h2>Qual foi o último filme do Studio Ghibli que você assistiu recentemente?</h2>
       
         <form action>
           <label for="fname"></label><br>
-          <input type="text" id="fname" name="fname" value="Digite Aqui" required><br><br>
+          <input type="text" id="fname" name="fname" placeholder="Digite Aqui" required><br><br>
         </form>
            
                 <h2>Escreva o nome do seu personagem favorito do Studio Ghibli:</h2>
             
             <form action>
                 <label for="fname"></label><br>
-                <input type="text" id="fname" name="fname" value="Digite Aqui" required><br><br>
+                <input type="text" id="fname" name="fname" placeholder="Digite Aqui" required><br><br>
               </form>
             
                 <h2>Escreva o nome do seu personagem menos favorito do Studio Ghibli:</h2>
             
               <form action>
                 <label for="fname"></label><br>
-                <input type="text" id="fname" name="fname" value="Digite Aqui" required><br><br>
+                <input type="text" id="fname" name="fname" placeholder="Digite Aqui" required><br><br>
               </form>
               
-                <h2>Escolha uma cor que tenha destaque na paleta de cores do seu filme favorito do Studio Ghibli:</h2>
+                <h2>Escolha uma cor que você goste de ver nos fimes do Studio Ghibli:</h2>
            
               <form>
-              <label for="colorPicker">Escolha a cor predominante do seu filme favorito do Studio Ghibli:</label>
+              <label for="colorPicker">Escolha a cor:</label>
               <input type="color" id="colorPicker" name="color" value="#ff0000" required>
               </form>
              
