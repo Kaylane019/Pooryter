@@ -4,12 +4,57 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 } 
 
-input:focus {
-    background-color: rgb(160, 206, 224);
+body {
+    font-family: "Georgia", serif;
+    background:
+    linear-gradient(180deg, #a0e7e5 0%, #82c3c1 100%);
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+.content {
+    margin-bottom: 40px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 input:focus {
-    padding: 6px;
-    border: 3px rgb(255, 255, 255);
+    background-color: rgb(224, 220, 159);
 }
 
+footer {
+    background-color: #3a8d8e;
+    color: white;
+    padding: 20px;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+header {
+    background-color: #3a8d8e;
+    color: #fff;
+    padding: 40px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.banner {
+    position: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

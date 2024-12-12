@@ -7,125 +7,133 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-    </header>
+  <header>
+    <h1>Bem-vindo ao Mundinho Ghibli!</h1>
+  </header>
+  
+  <form action="salvar.php" method="post"></form>
+   
     <main>
-        <ul>
-            <li>Nós conte o seu nome:</li>
-        </ul>
-        <form action>
+      <div class="banner">
+        <img src="c:\Users\20241114010031\Downloads\Mundinho Ghibli (1).png"alt="Banner da página" style="height:auto;">
+    </div>
+            <h2>Nós conte o seu nome:</h2>
+       
+        <form>
             <label for="fname"></label><br>
-            <input type="text" id="fname" name="fname" value="Nome"><br>
+            <input type="text" id="fname" name="fname" value="Nome" required><br>
             <label for="lname"></label><br>
-            <input type="text" id="lname" name="lname" value="Sobrenome"><br><br>
+            <input type="text" id="lname" name="lname" value="Sobrenome" required><br><br>
           </form>
-        <ul>
-            <li>Você é fã do Studio Ghibli?</li>
-        </ul>
+       
+            <h2>Você é fã do Studio Ghibli?</h2>
+       
         <form>
             <input type="radio" id="SIM!" name="fãGhibli" value="SIM!">
-            <label for="html">SIM!</label><br>
-            <input type="radio" id="Não..." name="fãGhibli" value="Não...">
-            <label for="javascript">Não...</label><br>
-            <input type="radio" id="Talvez" name="fãGhibli" value="Talvez">
-            <label for="javascript">Talvez</label><br>
+            <label for="html">SIM!</label required><br>
+            <input type="radio" id="Ainda não sei..." name="fãGhibli" value="Talvez">
+            <label for="html">Ainda não sei...</label required><br><br>
           </form>
-          <ul>
-            <li>Se é fã então selecione os filmes mais populares do Studio que você já assistiu!:</li>
-          </ul>
+        
+            <h2>Se é fã então selecione os filmes mais populares do Studio que você já assistiu!:</h2>
+          
           <form>
             <input type="checkbox" id="Filme1" name="Filme1" value="Meu Amigo Totoro">
-            <label for="Filme1"> Meu Amigo Totoro </label><br>
+            <label for="Filme1"> Meu Amigo Totoro </label required><br>
             <input type="checkbox" id="Filme2" name="Filme2" value="O Castelo Animado">
-            <label for="Filme2"> O Castelo Animado </label><br>
+            <label for="Filme2"> O Castelo Animado </label required><br>
             <input type="checkbox" id="Filme3" name="Filme3" value="Ponyo">
-            <label for="Filme3"> Ponyo </label><br>
+            <label for="Filme3"> Ponyo </label required><br>
             <input type="checkbox" id="Filme4" name="Filme4" value="Túmulo dos Vagalumes">
-            <label for="Filme4"> Túmulo dos Vagalumes </label><br>
+            <label for="Filme4"> Túmulo dos Vagalumes </label required><br>
             <input type="checkbox" id="Filme5" name="Filme5" value="A Viagem de Chihiro">
-            <label for="Filme5"> A Viagem de Chihiro </label><br>
+            <label for="Filme5"> A Viagem de Chihiro </label required><br>
             <input type="checkbox" id="Filme6" name="Filme6" value="O Serviço de Entregas da Kiki">
-            <label for="Filme6"> O Serviço de Entregas da Kiki </label><br>
+            <label for="Filme6"> O Serviço de Entregas da Kiki </label required><br>
             <input type="checkbox" id="Filme7" name="Filme7" value="Princesa Mononoke">
-            <label for="Filme7"> Princesa Mononoke </label><br>
+            <label for="Filme7"> Princesa Mononoke </label required><br>
             <input type="checkbox" id="Filme8" name="Filme8" value="O Reino dos Gatos">
-            <label for="Filme8"> O Reino dos Gatos </label><br>
+            <label for="Filme8"> O Reino dos Gatos </label required><br>
             <input type="checkbox" id="Filme9" name="Filme9" value="As Memórias de Marnie">
-            <label for="Filme9"> As Memórias de Marnie </label><br>
+            <label for="Filme9"> As Memórias de Marnie </label required><br>
             <input type="checkbox" id="Filme10" name="Filme10" value="O Conto de Princesa Kaguya">
-            <label for="Filme10"> O Conto de Princesa Kaguya </label><br>
+            <label for="Filme10"> O Conto de Princesa Kaguya </label required><br>
           </form> 
           <form>
-          <ul>
-            <li>De 0 a 100 determine o tanto que você gosta do Studio Ghibli:</li>
-          </ul>
-          <label for="Não gosto muito...">Não gosto muito...</label>
-          0<input type="range" id="Não gosto muito..." name="Não gosto muito..." min="0" max="100">100 <label for="AMO!">AMO!</label><br>
+          
+            <h2>De 0 a 100 determine o tanto que você gosta do Studio Ghibli:</h2>
+         
+          <label for="Não gosto muito...">Não gosto muito...</label required>
+          0<input type="range" id="Não gosto muito..." name="Não gosto muito..." min="0" max="100">100 <label for="AMO!">AMO!</label required><br>
         </form>
         <form>
-            <ul>
-                <li>Por onde/quem você conheceu o Studio Ghibli?</li>
-            </ul>
+          
+                <h2>Por onde/quem você conheceu o Studio Ghibli?</h2>
+            
             <label for="select"></label>
 	<select>
-		<option value="Youtube">Youtube</option>
-		<option value="Tiktok">Tiktok</option>
-		<option value="Instagram">Instagram</option>
-        <option value="Amigos">Amigos</option>
-        <option value="Familiares">Familiares</option>
-        <option value="Outro">Outro</option><br>
+		<option value="Youtube">Youtube</option required>
+		<option value="Tiktok">Tiktok</option required>
+		<option value="Instagram">Instagram</option required>
+        <option value="Amigos">Amigos</option required>
+        <option value="Familiares">Familiares</option required>
+        <option value="Outro">Outro</option required><br>
 	</select>
 	<br>
         </form>
-        <ul>
-          <li>Qual foi o primeiro filme do Studio Ghibli que você assistiu?</li>
-      </ul>
+       
+          <h2>Qual foi o primeiro filme do Studio Ghibli que você assistiu?</h2>
+      
         <form action>
           <label for="fname"></label><br>
-          <input type="text" id="fname" name="fname" value="Digite Aqui"><br><br>
+          <input type="text" id="fname" name="fname" value="Digite Aqui" required><br><br>
         </form>
-        <ul>
-          <li>Qual foi o último filme do Studio Ghibli que você assistiu recentemente?</li>
-      </ul>
+        
+          <h2>Qual foi o último filme do Studio Ghibli que você assistiu recentemente?</h2>
+      
         <form action>
           <label for="fname"></label><br>
-          <input type="text" id="fname" name="fname" value="Digite Aqui"><br><br>
+          <input type="text" id="fname" name="fname" value="Digite Aqui" required><br><br>
         </form>
-            <ul>
-                <li>Escreva o nome do seu personagem favorito do Studio Ghibli:</li>
-            </ul>
+           
+                <h2>Escreva o nome do seu personagem favorito do Studio Ghibli:</h2>
+            
             <form action>
                 <label for="fname"></label><br>
-                <input type="text" id="fname" name="fname" value="Digite Aqui"><br><br>
+                <input type="text" id="fname" name="fname" value="Digite Aqui" required><br><br>
               </form>
-              <ul>
-                <li>Escreva o nome do seu personagem menos favorito do Studio Ghibli:</li>
-            </ul>
+            
+                <h2>Escreva o nome do seu personagem menos favorito do Studio Ghibli:</h2>
+            
               <form action>
                 <label for="fname"></label><br>
-                <input type="text" id="fname" name="fname" value="Digite Aqui"><br><br>
+                <input type="text" id="fname" name="fname" value="Digite Aqui" required><br><br>
               </form>
-              <ul>
-                <li>Escolha uma cor que tenha destaque na paleta de cores do seu filme favorito do Studio Ghibli:</li>
-            </ul>
+              
+                <h2>Escolha uma cor que tenha destaque na paleta de cores do seu filme favorito do Studio Ghibli:</h2>
+           
               <form>
               <label for="colorPicker">Escolha a cor predominante do seu filme favorito do Studio Ghibli:</label>
-              <input type="color" id="colorPicker" name="color" value="#ff0000">
+              <input type="color" id="colorPicker" name="color" value="#ff0000" required>
               </form>
-              <ul>
-                <li>Qual estação do ano você mais gosta de ver nos filmes do Studio Ghibli?</li>
-            </ul>
+             
+                <h2>Qual estação do ano você mais gosta de ver nos filmes do Studio Ghibli?</h2>
+            
             <form>
                 <input type="radio" id="Verão" name="estações" value="Verão">
-                <label for="html">Verão</label><br>
+                <label for="html">Verão</label required><br>
                 <input type="radio" id="Inverno" name="estações" value="Inverno">
-                <label for="javascript">Inverno</label><br>
+                <label for="javascript">Inverno</label required><br>
                 <input type="radio" id="Outono" name="estações" value="Outono">
-                <label for="javascript">Outono</label><br>
+                <label for="javascript">Outono</label required><br>
                 <input type="radio" id="Primavera" name="estações" value="Primavera">
-                <label for="javascript">Primavera</label><br>
+                <label for="javascript">Primavera</label required><br>
               </form>
-              <button><a href="index2.html">Proximo</a></button>
+              <input type="submit" value="Salvar">
     </main>
+    <footer>
+    <p>IFRN Santa Cruz</p>
+      <p>Professor: Marcelo Junior</p>
+  </footer>
 </body>
 </html>
