@@ -7,7 +7,7 @@ body{
 body {
     font-family: "Georgia", serif;
     background:
-    linear-gradient(180deg, #a0e7e5 0%, #82c3c1 100%);
+    linear-gradient(180deg, #38B6FF 0%, #38B6FF 100%);
     color: #333;
     line-height: 1.6;
     padding: 0;
@@ -26,11 +26,11 @@ main {
 }
 
 input:focus {
-    background-color: rgb(201, 184, 240);
+    background-color: #478db9;
 }
 
 footer {
-    background-color: #3a8d8e;
+    background-color: #478db9;
     color: white;
     padding: 20px;
     font-size: 1.1em;
@@ -38,7 +38,7 @@ footer {
 }
 
 header {
-    background-color: #3a8d8e;
+    background-color: #478db9;
     color: #fff;
     padding: 40px 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
@@ -70,7 +70,7 @@ header h1 {
 
 .container img {
     width: 10%;
-    height: 100%;
+    height: 85%;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, 0.8);
@@ -78,6 +78,12 @@ header h1 {
 }
 
 .container img:hover {
-    width: 25%;
+    width: 30%;
     
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
 }
