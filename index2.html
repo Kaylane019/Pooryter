@@ -3,9 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundinho Ghibli</title>
+    <title>Desenvolvedores do Mundinho Ghibli</title>
 </head>
 <body>
-    <h1>Desenvolvedores do site</h1>
+    <style>
+    body {
+        font-family: Georgia, sans-serif;
+        background-color: #82c3c1;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .developer {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 20px;
+        transition: transform 0.3s ease;
+    }
+    .developer:hover {
+        transform: translateY(-10px);
+    }
+    .developer img {
+        width: 100%;
+        border-radius: 50%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .developer h2 {
+        margin: 10px 0;
+        font-size: 1.5em;
+        color: #333;
+    }
+    .developer p {
+        color: #777;
+        font-size: 1.1em;
+    }
+    .developer .social-links {
+            margin-top: 10px;
+        }
+        .developer .social-links a {
+            text-decoration: none;
+            color: #8935c0;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+        .developer .social-links a:hover {
+            color: #007BFF;
+    }
+    
+</style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Nossa Equipe de Desenvolvedores:</h1>
+        
+        <div class="team">
+           
+            <div class="developer">
+                <img src="" alt="Foto do Desenvolvedor 1">
+                <h2>João Silva</h2>
+                <p>Desenvolvedor Manu</p>
+                <div class="social-links">
+                    <a href="" target="_blank">GitHub</a>
+                </div>
+            </div>
+            
+          
+            <div class="developer">
+                <img src="" alt="Foto do Desenvolvedor 2">
+                <h2>Ana Pereira</h2>
+                <p>Desenvolvedora Ray</p>
+                <div class="social-links">
+                    <a href="" target="_blank">GitHub</a>
+                </div>
+            </div>
+            
+           
+            <div class="developer">
+                <img src="" alt="Foto do Desenvolvedor 3">
+                <h2>Pedro Souza</h2>
+                <p>Desenvolvedora Kay</p>
+                <div class="social-links">
+                    <a href="" target="_blank">GitHub</a>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
 </body>
 </html>

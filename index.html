@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <form action="salvar.php" method="post"></form>
+  <form 
+  action="salvar.php" method="POST"></form>
    
     <main>
       <div class="banner">
@@ -29,10 +30,10 @@
             <h2>Você é fã do Studio Ghibli?</h2>
        
         <form>
-            <input type="radio" id="SIM!" name="fãGhibli" value="SIM!">
-            <label for="html">SIM!</label required><br>
-            <input type="radio" id="Ainda não sei..." name="fãGhibli" value="Talvez">
-            <label for="html">Ainda não sei...</label required><br><br>
+            <input type="radio" id="SIM" name="fãGhibli" value="SIM">
+            <label for="html">SIM<label required><br>
+            <input type="radio" id="Pouco" name="fãGhibli" value="Pouco">
+            <label for="html">Pouco</label required><br><br>
           </form>
         
             <h2>Se é fã então selecione os filmes mais populares do Studio que você já assistiu!:</h2>
@@ -141,7 +142,7 @@
                 <input type="radio" id="Primavera" name="estações" value="Primavera">
                 <label for="javascript">Primavera</label required><br>
               </form>
-              <input type="submit" value="Salvar">
+              <button type="submit">Salvar</button>
     </main>
     <footer>
     <p>IFRN Santa Cruz</p>
