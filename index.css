@@ -1,8 +1,4 @@
-body{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-} 
+
 
 body {
     font-family: "Georgia", serif;
@@ -12,6 +8,10 @@ body {
     line-height: 1.6;
     padding: 0;
     text-align: center;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -25,8 +25,10 @@ main {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+    
+
 input:focus {
-    background-color: #478db9;
+    background-color: #95ccee;
 }
 
 footer {
@@ -35,6 +37,7 @@ footer {
     padding: 20px;
     font-size: 1.1em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    border: 9px;
 }
 
 header {
@@ -68,23 +71,36 @@ header h1 {
     gap: 10px;
 }
 
+.container {
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .container img {
     width: 10%;
-    height: 80%;
+    height: 70%;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.8);
-    transition: all ease-in-out 0.5s;
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    transition: all ease-in-out 0.4s;
 }
 
 .container img:hover {
-    width: 85%;
-    
+    width: 20%;
+    transform: translateY(-10px) scale(1.1);
 }
+    
+.botao-voltar:hover {
+    background-color: #55a0d6;
+    transform: scale(1.05);
+}
+  
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(109, 39, 39);
     padding: 10px 20px;
 }
-

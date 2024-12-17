@@ -1,156 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mundinho Ghibli </title>
+    <title>Mundinho Ghibli</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <form 
-  action="salvar.php" method="POST"></form>
-   
+  <form action="salvar.php" method="POST">
+    
     <main>
       <div class="banner">
-        <img src="https://imgur.com/i1s3A84.png"alt="Banner da página" style="height:auto;">
-    </div>
-    <header>
-      <h1>Bem-vindo ao Mundinho Ghibli!</h1>
-      <p>Onde a magia e a fantasia dos filmes do Studio Ghibli são relembradas.</p>
-    </header>
-            <h2>Nos conte o seu nome:</h2>
-       
-        <form>
-            <label for="fname"></label><br>
-            <input type="text" id="fname" name="fname" placeholder="Nome" required><br>
-            <label for="lname"></label><br>
-            <input type="text" id="lname" name="lname" placeholder="Sobrenome" required><br><br>
-          </form>
-       
-            <h2>Você é fã do Studio Ghibli?</h2>
-       
-        <form>
-            <input type="radio" id="SIM" name="fãGhibli" value="SIM">
-            <label for="html">SIM<label required><br>
-            <input type="radio" id="Pouco" name="fãGhibli" value="Pouco">
-            <label for="html">Pouco</label required><br><br>
-          </form>
-        
-            <h2>Se é fã então selecione os filmes mais populares do Studio que você já assistiu!:</h2>
-          
-          <form>
-            <input type="checkbox" id="Filme1" name="Filme1" value="Meu Amigo Totoro">
-            <label for="Filme1"> Meu Amigo Totoro </label required><br>
-            <input type="checkbox" id="Filme2" name="Filme2" value="O Castelo Animado">
-            <label for="Filme2"> O Castelo Animado </label required><br>
-            <input type="checkbox" id="Filme3" name="Filme3" value="Ponyo">
-            <label for="Filme3"> Ponyo </label required><br>
-            <input type="checkbox" id="Filme4" name="Filme4" value="Túmulo dos Vagalumes">
-            <label for="Filme4"> Túmulo dos Vagalumes </label required><br>
-            <input type="checkbox" id="Filme5" name="Filme5" value="A Viagem de Chihiro">
-            <label for="Filme5"> A Viagem de Chihiro </label required><br>
-            <input type="checkbox" id="Filme6" name="Filme6" value="O Serviço de Entregas da Kiki">
-            <label for="Filme6"> O Serviço de Entregas da Kiki </label required><br>
-            <input type="checkbox" id="Filme7" name="Filme7" value="Princesa Mononoke">
-            <label for="Filme7"> Princesa Mononoke </label required><br>
-            <input type="checkbox" id="Filme8" name="Filme8" value="O Reino dos Gatos">
-            <label for="Filme8"> O Reino dos Gatos </label required><br>
-            <input type="checkbox" id="Filme9" name="Filme9" value="As Memórias de Marnie">
-            <label for="Filme9"> As Memórias de Marnie </label required><br>
-            <input type="checkbox" id="Filme10" name="Filme10" value="O Conto de Princesa Kaguya">
-            <label for="Filme10"> O Conto de Princesa Kaguya </label>
-          </form> 
-          <h3>Esses são os filmes citados acima:</h3>
-          <div class="container">
-            <img src="https://imgur.com/A7pJAGh.jpg">
-            <img src="https://imgur.com/AZHR8lU.jpg">
-            <img src="https://imgur.com/VhkM2oB.jpg">
-            <img src="https://imgur.com/ux2mIcu.jpg">
-            <img src="https://imgur.com/myU3J0I.jpg">
-            <img src="https://imgur.com/r3Gsmor.jpg">
-            <img src="https://imgur.com/LkBFutP.jpg">
-            <img src="https://imgur.com/gjI8Tvo.jpg">
-            <img src="https://imgur.com/HMhkJKP.jpg">
-            <img src="https://imgur.com/2tfqRcn.jpg">
-          </div>
-          <form>
+        <img src="https://imgur.com/i1s3A84.png" alt="Banner da página" style="height:auto;">
+      </div>
+      <header>
+        <h1>Bem-vindo ao Mundinho Ghibli!</h1>
+        <p>Onde a magia e a fantasia dos filmes do Studio Ghibli são relembradas.</p>
+      </header>
+      <div class="botoes">
+        <a href="index2.html" class="botao-voltar">Desenvolvedores</a>
+      </div>
+      <div class="botoes">
+        <a href="salvar.php" class="botao-voltar">Dados do Cadastro</a>
+      </div>
+      <h2>Nos conte o seu nome:</h2>
+      <label for="fname">Nome:</label>
+      <input type="text" id="fname" name="fname" placeholder="Nome" required><br>
+      
+      <label for="lname">Sobrenome:</label>
+      <input type="text" id="lname" name="lname" placeholder="Sobrenome" required><br><br>
 
-            <h2>De 0 a 100 determine o tanto que você gosta do Studio Ghibli:</h2>
-            
-           </form>
-          <label for="Não gosto muito...">Não gosto muito...</label required>
-          0<input type="range" id="Não gosto muito..." name="Não gosto muito..." min="0" max="100">100 <label for="AMO!">AMO!</label required><br>
-        </form>
-        <form>
-          
-                <h2>Por onde/quem você conheceu o Studio Ghibli?</h2>
-            
-            <label for="select"></label>
-	<select>
-		<option value="Youtube">Youtube</option required>
-		<option value="Tiktok">Tiktok</option required>
-		<option value="Instagram">Instagram</option required>
-        <option value="Amigos">Amigos</option required>
-        <option value="Familiares">Familiares</option required>
-        <option value="Outro">Outro</option required><br>
-	</select>
-	<br>
-        </form>
-       
-          <h2>Qual foi o primeiro filme do Studio Ghibli que você assistiu?</h2>
-      
-        <form action>
-          <label for="fname"></label><br>
-          <input type="text" id="fname" name="fname" placeholder="Digite Aqui" required><br><br>
-        </form>
-        
-          <h2>Qual foi o último filme do Studio Ghibli que você assistiu recentemente?</h2>
-      
-        <form action>
-          <label for="fname"></label><br>
-          <input type="text" id="fname" name="fname" placeholder="Digite Aqui" required><br><br>
-        </form>
-           
-                <h2>Escreva o nome do seu personagem favorito do Studio Ghibli:</h2>
-            
-            <form action>
-                <label for="fname"></label><br>
-                <input type="text" id="fname" name="fname" placeholder="Digite Aqui" required><br><br>
-              </form>
-            
-                <h2>Escreva o nome do seu personagem menos favorito do Studio Ghibli:</h2>
-            
-              <form action>
-                <label for="fname"></label><br>
-                <input type="text" id="fname" name="fname" placeholder="Digite Aqui" required><br><br>
-              </form>
-              
-                <h2>Escolha uma cor que você goste de ver nos fimes do Studio Ghibli:</h2>
-           
-              <form>
-              <label for="colorPicker">Escolha a cor:</label>
-              <input type="color" id="colorPicker" name="color" value="#ff0000" required>
-              </form>
-             
-                <h2>Qual estação do ano você mais gosta de ver nos filmes do Studio Ghibli?</h2>
-            
-            <form>
-                <input type="radio" id="Verão" name="estações" value="Verão">
-                <label for="html">Verão</label required><br>
-                <input type="radio" id="Inverno" name="estações" value="Inverno">
-                <label for="javascript">Inverno</label required><br>
-                <input type="radio" id="Outono" name="estações" value="Outono">
-                <label for="javascript">Outono</label required><br>
-                <input type="radio" id="Primavera" name="estações" value="Primavera">
-                <label for="javascript">Primavera</label required><br>
-              </form>
-            
+      <h2>Você é fã do Studio Ghibli?</h2>
+      <input type="radio" id="SIM" name="faGhibli" value="SIM">
+      <label for="SIM">SIM</label><br><br>
+      <input type="radio" id="Pouco" name="faGhibli2" value="Pouco">
+      <label for="Pouco">Pouco</label><br><br>
+
+      <h2>Selecione os filmes que você já assistiu:</h2>
+      <input type="checkbox" name="Filme1" value="Meu Amigo Totoro"> Meu Amigo Totoro<br>
+      <input type="checkbox" name="Filme2" value="O Castelo Animado"> O Castelo Animado<br>
+      <input type="checkbox" name="Filme3" value="Ponyo"> Ponyo<br>
+      <input type="checkbox" name="Filme4" value="Túmulo dos Vagalumes"> Túmulo dos Vagalumes<br>
+      <input type="checkbox" name="Filme5" value="A Viagem de Chihiro"> A Viagem de Chihiro<br>
+      <input type="checkbox" name="Filme6" value="O Serviço de Entregas da Kiki"> O Serviço de Entregas da Kiki<br>
+      <input type="checkbox" name="Filme7" value="Princesa Mononoke"> Princesa Mononoke<br>
+      <input type="checkbox" name="Filme8" value="O Reino dos Gatos"> O Reino dos Gatos<br>
+      <input type="checkbox" name="Filme9" value="As Memórias de Marnie"> As Memórias de Marnie<br>
+      <input type="checkbox" name="Filme10" value="O Conto da Princesa Kaguya"> O Conto da Princesa Kaguya
+
+      <h2>Esses são os filmes citados acima:</h2>
+      <div class="container">
+        <img src="https://imgur.com/A7pJAGh.jpg" alt="Meu Amigo Totoro">
+        <img src="https://imgur.com/AZHR8lU.jpg" alt="O Castelo Animado">
+        <img src="https://imgur.com/VhkM2oB.jpg" alt="Ponyo">
+        <img src="https://imgur.com/ux2mIcu.jpg" alt="Túmulo dos Vagalumes">
+        <img src="https://imgur.com/myU3J0I.jpg" alt="A Viagem de Chihiro">
+        <img src="https://imgur.com/r3Gsmor.jpg" alt="O Serviço de Entregas da Kiki">
+        <img src="https://imgur.com/LkBFutP.jpg" alt="Princesa Mononoke">
+        <img src="https://imgur.com/gjI8Tvo.jpg" alt="O Reino dos Gatos">
+        <img src="https://imgur.com/HMhkJKP.jpg" alt="As Memórias de Marnie">
+        <img src="https://imgur.com/2tfqRcn.jpg" alt="O Conto de Princesa Kaguya">
+      </div>
+
+      <h2>De 0 a 100, determine quanto você gosta do Studio Ghibli:</h2>
+      <label for="Não gosto muito">Não gosto muito</label>
+      0<input type="range" id="Gostar" name="Gostar" min="0" max="100">100
+     <label for="AMO">AMO</label><br>
+
+      <h2>Por onde você conheceu o Studio Ghibli?</h2>
+      <select name="Select" required>
+        <option value="Youtube">Youtube</option>
+        <option value="Tiktok">Tiktok</option>
+        <option value="Instagram">Instagram</option>
+        <option value="Amigos">Amigos</option>
+        <option value="Familiares">Familiares</option>
+        <option value="Outro">Outro</option>
+      </select><br>
+
+      <h2>Qual foi o primeiro filme que você assistiu do Studio Ghibli?</h2>
+      <input type="text" name="primeiroFilme" placeholder="Digite Aqui" required><br><br>
+
+      <h2>Qual foi o último filme que você assistiu do Studio Ghibli?</h2>
+      <input type="text" name="ultimoFilme" placeholder="Digite Aqui" required><br><br>
+
+      <h2>Seu personagem favorito do Studio Ghibli:</h2>
+      <input type="text" name="personagemFavorito" placeholder="Digite Aqui" required><br><br>
+
+      <h2>Seu personagem menos favorito do Studio Ghibli:</h2>
+      <input type="text" name="personagemMenosFavorito" placeholder="Digite Aqui" required><br><br>
+
+      <h2>Escolha uma cor que você goste de ver nos filmes do Studio Ghibli:</h2>
+      <input type="color" name="color" value="#ff0000" required><br><br>
+
+      <h2>Qual estação do ano você mais gosta nos filmes do Studio Ghibli?</h2>
+      <input type="radio" name="estacao1" value="Verão"> Verão
+      <input type="radio" name="estacao2" value="Inverno"> Inverno
+      <input type="radio" name="estacao3" value="Outono"> Outono
+      <input type="radio" name="estacao4" value="Primavera"> Primavera<br><br>
+
+      <button type="submit">Enviar</button>
     </main>
-    <footer>
-      <a href="index2.html">Desenvolvedores</a>
+  </form>
+  <footer>
     <p>IFRN Santa Cruz</p>
     <p>Disciplina: Autoria Web</p>
-      <p>Professor: Marcelo Junior</p>
+    <p>Professor: Marcelo Junior</p>
   </footer>
 </body>
 </html>
